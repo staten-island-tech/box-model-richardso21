@@ -10,12 +10,25 @@ body{
     position: relative;
 }
 
-#content{
-    background-color: azure;
+#container{
+    background-color: rgba(240, 255, 255, 0.8);
     position: absolute;
-    padding: 1rem;
+    padding: 2rem;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     font-family: 'Lato', sans-serif;
+    filter: drop-shadow(1rem 1rem 1rem);
 }
+
+#title{
+    text-align: center;
+    font-style: italic;
+}
+
+#button{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
