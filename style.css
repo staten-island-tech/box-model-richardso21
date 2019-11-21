@@ -7,11 +7,12 @@ body{
     background-image: url('1232.WWDC_2019_Dark-1024w-1366h@2xipad.png');
     background-size: cover;
     height: 100vh;
+
     position: relative;
 }
 
 #container{
-    background-color: rgba(240, 255, 255, 0.8);
+    background: linear-gradient(to right bottom, rgba(172, 248, 248, 0.8), rgba(235, 182, 255, 0.8));
     position: absolute;
     padding: 2rem;
     left: 50%;
@@ -21,9 +22,24 @@ body{
     filter: drop-shadow(1rem 1rem 1rem);
 }
 
+#laughing-face{    
+    position: absolute;
+    height: 50rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); 
+    filter: opacity(0.5);
+}
+
 #title{
     text-align: center;
     font-style: italic;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#paragraph{
+    font-size: 1.2rem;
 }
 
 #button{
