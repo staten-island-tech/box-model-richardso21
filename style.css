@@ -1,24 +1,23 @@
 body{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
-.background{
-    background-image: url('download.jfif');
-    height: 100vh;
+
+#background{
+    background-image: url('1232.WWDC_2019_Dark-1024w-1366h@2xipad.png');
     background-size: cover;
+    height: 100vh;
     position: relative;
 }
-.text{
+
+#head{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 100px;
-    transform: translate(-50%,-50%);
-    color: blue;
-}
-#error{
-    background-image: url('error.png');
-    height: 20vh;
-    background-size: 100%;
+    font-family: 'Lato', sans-serif;
+    color: aqua;
+    font-size: 5rem;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    transform: translate(50%,70%);
+    text-shadow: .2rem .2rem .2rem;
 }
