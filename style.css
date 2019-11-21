@@ -7,17 +7,20 @@ body{
     background-image: url('1232.WWDC_2019_Dark-1024w-1366h@2xipad.png');
     background-size: cover;
     height: 100vh;
-
     position: relative;
+    filter: blur(.5rem);
+    background-position: center;
+
 }
 
 #container{
-    background: linear-gradient(to right bottom, rgba(172, 248, 248, 0.8), rgba(235, 182, 255, 0.8));
+    background: linear-gradient(to right bottom, rgba(172, 248, 248, 0.7), rgba(235, 182, 255, 0.7));
     position: absolute;
     padding: 2rem;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+    /* font-family: cursive; */
     font-family: 'Lato', sans-serif;
     filter: drop-shadow(1rem 1rem 1rem);
 }
@@ -43,6 +46,14 @@ body{
 }
 
 #button{
+    background: linear-gradient(to left top, rgba(172, 248, 248, 0.7), rgba(235, 182, 255, 0.7));
+    border-image: linear-gradient(to left top, rgba(0, 255, 255, 0.7), rgba(187, 0, 255, 0.7));
+    border-image-slice: 1;
+    border-width: .3rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
     position: relative;
     left: 50%;
     transform: translate(-50%,0);
